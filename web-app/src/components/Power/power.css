@@ -1,0 +1,25 @@
+.power-card {
+    width: 98%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 5%;
+    font-family: 'Palatino', 'Times New Roman',  sans-serif;
+    font-size: medium;
+}
+
+#pc_sub_header {
+    color: black;
+    text-align: left;
+    background-color: tan;
+    margin: "auto";
+    width: "98%";
+    border: 5px solid transparent;
+    border-radius: "5%"
+}
+
+#pc_sub_section {
+    color: black;
+    text-align: left;
+}

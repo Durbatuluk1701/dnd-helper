@@ -1,1 +1,1 @@
-export { Power } from "./Power.tsx"
+export { PowerCard } from "./PowerCard.tsx"

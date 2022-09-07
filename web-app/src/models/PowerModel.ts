@@ -40,7 +40,7 @@ interface PowerModel {
     /* The powers name */
     name        : string    ;
     // The powers type
-    type        : PowerType ;
+    powerType   : PowerType ;
     // Brief description of the power 
     description : string    ;
     // The type of the action that the power must be used as

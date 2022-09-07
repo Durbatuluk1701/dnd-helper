@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Power } from './components';
+import { PowerCard } from './components';
 
 export const App = () :JSX.Element => {
   const examplePower: PowerModel = {
     name: 'The Coolest Power',
-    type: 'AtWill',
+    powerType: 'Utility',
     description: '',
     actionType: 'Standard',
     range: {
       standard: 0,
       long: 0
     },
-    level: 0,
+    level: 1,
     className: 'Cleric',
     keywords: [],
     damageType: 'Acid',
@@ -33,7 +33,9 @@ export const App = () :JSX.Element => {
         >
           Learn React
         </a>
-        <Power powerMod={examplePower} />
+        <div style={{width: "480px"}}>
+          <PowerCard powerMod={examplePower} />
+        </div>
       </header>
     </div>
   )
